@@ -1,0 +1,55 @@
+// $main-color: #1755e7;
+// $secondary-color: #164ddc;
+// $pure-white: #fff;
+// $light-white: #eee;
+// $dark: #2e2e2e;
+// $green-color: #00ffaa;
+// $green-color-hover: #0fe29c;
+
+$main-color: #b08a5a; // основной акцент (бронза / камень)
+$secondary-color: #9a764b; // hover / затемнённый акцент
+
+$pure-white: #ffffff;
+$light-white: #f7f3ee; // теплый фон вместо холодного #eee
+
+$dark: #1f1f1b; // глубокий графит (вместо серого)
+
+$green-color: #7e6d5a; // muted stone (вместо кислотного зелёного)
+$green-color-hover: #5d5145; // затемнение
+
+// ---------- FENIX gradients (luxury stone style) ----------
+
+// $light-blue-gradient
+$light-stone-gradient: linear-gradient(
+	45deg,
+	rgba(176, 138, 90, 0.75),
+	rgba(224, 204, 176, 0.75)
+);
+
+//  $blue-gradient
+$stone-gradient: linear-gradient(
+	45deg,
+	rgba(176, 138, 90, 0.5),
+	rgba(90, 75, 60, 0.25)
+);
+
+//  $purple-gradient
+$dark-stone-gradient: linear-gradient(
+	45deg,
+	rgba(95, 81, 69, 0.75),
+	rgba(31, 31, 27, 0.85)
+);
+
+//  $blue-gradient-solid
+$stone-gradient-solid: linear-gradient(
+	45deg,
+	rgb(176, 138, 90),
+	rgb(90, 75, 60)
+);
+
+//  $light-blue-gradient-solid
+$light-stone-gradient-solid: radial-gradient(
+	circle at top right,
+	rgb(224, 204, 176) 0%,
+	rgb(176, 138, 90) 100%
+);
