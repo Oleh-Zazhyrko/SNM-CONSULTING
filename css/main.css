@@ -280,27 +280,21 @@ body {
   border-radius: 0px;
   position: relative;
 }
-.about__box-img-code95::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 50%;
-  height: 60%;
-  background: linear-gradient(45deg, rgba(176, 138, 90, 0.75), rgba(224, 204, 176, 0.75));
-  background: rgba(255, 255, 255, 0.92);
-  clip-path: polygon(0 100%, 0 0, 100% 100%);
-  z-index: 1;
-  opacity: 0.9;
-}
 .about__img-overlay {
   position: absolute;
-  bottom: 5px;
-  left: 5px;
-  width: 60px;
-  opacity: 0.95;
+  bottom: 12px;
+  left: 12px;
+  width: 38%;
+  border-radius: 12px;
   z-index: 5;
-  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.25));
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+  padding: 6px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+.about__box-img:hover .about__img-overlay {
+  transform: translateY(-4px);
+  transition: 0.3s ease;
 }
 .about__img {
   display: block;
@@ -729,7 +723,6 @@ body {
   .about__img-overlay {
     bottom: 10px;
     left: 10px;
-    width: 80px;
   }
   .hero-img {
     padding: 40rem 2em;
@@ -792,7 +785,6 @@ body {
   .about__img-overlay {
     bottom: 15px;
     left: 15px;
-    width: 90px;
   }
   .foreigners__cards {
     grid-template-columns: repeat(3, 1fr);
@@ -820,5 +812,45 @@ body {
   }
   .business__card:last-child {
     grid-column: span 1;
+  }
+}
+@media (hover: none) and (pointer: coarse) {
+  .logo__img:hover {
+    filter: none;
+  }
+  .aboutus .aboutus-card:hover {
+    transform: none;
+  }
+  .aboutus .aboutus-card:hover::before {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .aboutus .aboutus-card:hover .aboutus-card-title {
+    opacity: 1;
+    transform: none;
+  }
+  .services .services-item:hover .services-img {
+    transform: none;
+  }
+  .materials-hero .materials-card:hover {
+    transform: none;
+  }
+  .contacts .contact-card:hover {
+    transform: none;
+  }
+  .cta .cta-btn:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  .gallery-carousel .swiper-button-prev:hover,
+  .gallery-carousel .swiper-button-next:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
   }
 }/*# sourceMappingURL=main.css.map */
