@@ -64,7 +64,7 @@
 }
 
 .section-padding {
-  padding: 4em 2em;
+  padding: 2.6em 1.2em;
 }
 
 .section-text {
@@ -257,7 +257,6 @@ body {
 }
 
 .about {
-  padding: 6rem 0;
   background: linear-gradient(180deg, #f7f3ee 0%, #ffffff 100%);
 }
 .about .section-heading {
