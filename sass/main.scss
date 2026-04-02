@@ -23,8 +23,9 @@ body {
 // NAV
 .burger-btn {
 	position: fixed;
-	top: 20px;
-	right: 20px;
+
+	top: 10px;
+	right: 5px;
 	padding: 1em;
 	background: none;
 	border: 1px solid transparent;
@@ -46,7 +47,7 @@ body {
 
 	&__box {
 		position: relative;
-		width: 40px;
+		width: 30px;
 		height: 30px;
 	}
 
@@ -550,11 +551,16 @@ body {
 	}
 }
 
+//
 // ========================
 // MEDIA
 // ========================
 
 @media (min-width: 576px) {
+	.burger-btn {
+		right: 10px;
+	}
+
 	.about {
 		&__box {
 			padding: 2.2rem;
@@ -563,6 +569,11 @@ body {
 }
 
 @media (min-width: 768px) {
+	.burger-btn {
+		top: 20px;
+		right: 12px;
+	}
+
 	.white-block {
 		height: 50px;
 		width: 45%;
@@ -687,6 +698,17 @@ body {
 }
 
 @media (min-width: 992px) {
+	.burger-btn {
+		top: 50px;
+		right: 50px;
+
+		&__box {
+			position: relative;
+			width: 40px;
+			height: 30px;
+		}
+	}
+
 	.burger-btn {
 		top: 50px;
 		right: 50px;
