@@ -177,8 +177,6 @@ body {
 .nav__item img {
   max-width: 300px;
   height: auto;
-  margin-left: -2.2em;
-  margin-bottom: -2em;
 }
 .nav__item {
   position: relative;
@@ -743,8 +741,8 @@ body {
   .nav img {
     max-width: 420px;
     height: auto;
-    margin-left: -1.8em;
-    margin-bottom: -1.8em;
+    margin-left: -1em;
+    margin-bottom: -1.2em;
   }
   .about {
     padding: 8rem 0;
