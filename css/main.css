@@ -175,8 +175,10 @@ body {
   transform: translateX(0);
 }
 .nav__item img {
-  max-width: 300px;
+  max-width: 320px;
   height: auto;
+  margin-left: -1.2em;
+  margin-bottom: -1em;
 }
 .nav__item {
   position: relative;
@@ -739,7 +741,7 @@ body {
     font-size: 4.8rem;
   }
   .nav img {
-    max-width: 420px;
+    max-width: 460px;
     height: auto;
     margin-left: -1em;
     margin-bottom: -1.2em;

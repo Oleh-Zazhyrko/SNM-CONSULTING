@@ -92,10 +92,13 @@ body {
 
 	&__item {
 		img {
-			max-width: 300px;
+			// max-width: 300px;
+			max-width: 320px;
 			height: auto;
 			// margin-left: -2.2em;
+			margin-left: -1.2em;
 			// margin-bottom: -2em;
+			margin-bottom: -1em;
 		}
 
 		position: relative;
@@ -753,7 +756,8 @@ body {
 		}
 
 		img {
-			max-width: 420px;
+			// max-width: 420px;
+			max-width: 460px;
 			height: auto;
 			// margin-left: -1.8em;
 			margin-left: -1em;
